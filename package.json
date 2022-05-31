@@ -1,0 +1,28 @@
+{
+  "name": "token",
+  "version": "0.0.1",
+  "description": "Thin air token",
+  "main": "server.js",
+  "scripts": {
+
+    "node": "npx hardhat node",
+
+    "run-local": "npx hardhat run scripts/run.js",
+    "run-deploy": "npx hardhat run scripts/run.js --network rinkeby",
+
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "info@lgstudio.io",
+  "license": "ISC",
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.6.0",
+    "dotenv": "^16.0.1"
+  },
+  "devDependencies": {
+    "@nomiclabs/hardhat-etherscan": "^3.0.4",
+    "@nomiclabs/hardhat-waffle": "^2.0.3",
+    "ethereum-waffle": "^3.4.4",
+    "ethers": "^5.6.8",
+    "hardhat": "^2.9.7"
+  }
+}
